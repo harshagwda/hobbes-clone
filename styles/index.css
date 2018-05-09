@@ -36,7 +36,7 @@
     color: rgba(255, 255, 255);
     letter-spacing: 1px;
     line-height: 15px;
-    border: 0.3px solid rgba(53, 171, 206, 0.75);
+    border: 0.1px solid rgba(53, 171, 206, 0.75);
     border-radius: 40px;
     background-color: rgba(53, 171, 206, 0.75);
     transition: all 0.3s ease 0s;
@@ -50,6 +50,7 @@
     margin-left: 380px;
     margin-right: 20px;
     margin-top: 20px;
+    outline: none;
 }
 #p-fit{
     text-align: justify;
@@ -70,24 +71,25 @@
     color: rgba(255, 255, 255);
     letter-spacing: 1px;
     line-height: 15px;
-    border: 0.3px solid rgba(42, 46, 47, 0.75);
+    border: 0.1px solid rgba(42, 46, 47, 0.75);
     border-radius: 40px;
     background-color: rgba(42, 46, 47, 0.75);
     transition: all 0.3s ease 0s;
 }
 #btn-fit1{
-    padding-left: 35px;
+    padding-left: 30px;
     height: 40px;
     font-size: 20px;
     text-align: center;
-    padding-right: 35px;
+    padding-right: 28px;
     margin-left: 380px;
     margin-right: 20px;
     margin-top: 15px;
+    outline: none;
 }
 
 #imgfit{
-    margin-left: 15px;
+    margin-left: 40px;
     margin-bottom: 50px;
     padding-left: 25px;
 }
@@ -106,6 +108,7 @@
     padding-bottom: 20px;
     border-bottom-color: #e1e1ea;
     text-align: left;
+    /*margin-left: 98px;*/
 }
 
 #fulscrn{
@@ -146,20 +149,7 @@
     color: rgba(255, 255, 255);
     letter-spacing: 1px;
     line-height: 15px;
-    border: 0.3px solid rgba(43, 163, 193, 0.75);
-    border-radius: 40px;
-    background-color: rgba(43, 163, 193, 0.75);
-    transition: all 0.3s ease 0s;
-}
-
-.btn-info3{
-    font-family: Roboto-Regular;
-    font-style: normal;
-    font-size: 13px;
-    color: rgba(255, 255, 255);
-    letter-spacing: 1px;
-    line-height: 15px;
-    border: 0.3px solid rgba(43, 163, 193, 0.75);
+    border: 0.1px solid rgba(43, 163, 193, 0.75);
     border-radius: 40px;
     background-color: rgba(43, 163, 193, 0.75);
     transition: all 0.3s ease 0s;
@@ -174,6 +164,20 @@
     margin-left: 77px;
     margin-right: 20px;
     margin-top: 15px;
+    outline: none;
+}
+
+.btn-info3{
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-size: 13px;
+    color: rgba(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 0.1px solid rgba(43, 163, 193, 0.75);
+    border-radius: 40px;
+    background-color: rgba(43, 163, 193, 0.75);
+    transition: all 0.3s ease 0s;
 }
 
 #btn-fit3{
@@ -185,32 +189,33 @@
     margin-left: 77px;
     margin-right: 20px;
     margin-top: 15px;
+    outline: none;
 }
 
 #no-acc{
 
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 15px;
     color: white;
     font-weight: 550;
+    display: inline-block;
 }
 
-
-/* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
+    display: none; 
+    z-index: 1; 
+    padding-top: 45px;
+    left: -200px;
     top: 0;
-    width: 226%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 226%; 
+    height: 100%; 
+    overflow: auto;
+    position: absolute;
+    margin-right: 2px;
     
 }
 
-/* Modal Content */
+
 .modal-content {
     position: relative;
     background-color: #fefefe;
@@ -225,7 +230,7 @@
     animation-duration: 0.4s
 }
 
-/* Add Animation */
+
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
@@ -236,9 +241,9 @@
     to {top:0; opacity:1}
 }
 
-/* The Close Button */
+
 .close {
-    color: white;
+    color: #000000;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -253,14 +258,52 @@
 
 .modal-header {
     padding: 2px 16px;
-    background-color: grey;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 2px 16px;
+    font-family: OpenSans;
+    font-style: normal;
+    font-size: 18px;
+}
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: grey;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
+}
+#btn-center{
+    margin-left: 112px;
+}
+
+.txt-area-center{
+    margin-left: 98px;
+}
+
+.txt-center{
+    margin-left: 32px;
+}
+
+#hd-center{
+    margin-left: 150px;
+}
+
+.mybtn{
+    padding-left: 175px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: rgba(43, 163, 193, 0.75);
+}
+
+#sign-up-btn{
+    display: inline-block;
+    background-color: rgba(42, 46, 47, 0.75);
+    outline: none;
+    color: rgb(15, 202, 249);
+    font-weight: 550;
+}
+.same-line{
+    display: inline-block;
 }
