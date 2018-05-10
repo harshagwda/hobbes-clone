@@ -1,88 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/index.css">
+<style>
+   body {
+   background-image: url("welcome.png");
+   width: 100%;
+   height: 50%;
+}
+</style>
 </head>
 <body>
 <div class="container">
-    <img src="welcome.png" alt="Norway" style="width:100%;">
-     <div class="centered">
-  <div class="row">
-    <form role="form">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd-wd" id = "lname-fit">
-            <label for="exampleInputEmail1" class = "label">Last Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  <div class="row centered-form">
+    <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+      <div class = "row same-line" id = "sm-ln">
+          <h3 class="register">Register as a </h3>
+        <button class="btn btn-primary dropdown-toggle toggle1" id = "btn-reg" type="button" data-toggle="dropdown">Resident<span class="caret"></span></button>
+</div>
+          <div>
+            <form role="form" id="fullform">
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 txt-fn">
+                  <div class="form-group">
+                   <label for="First name" class="lablee">First Name</label>
+                   <input type="text" style="border-top-color: #b09898;border-top-width: 2px;" name="first_name" id="first_name" class="form-control input-sm fn-fit-1"">
+                 </div>
+               </div>
+               <div class="col-xs-6 col-sm-6 col-md-6 text-fn-right">
+                <div class="form-group">
+                  <label for="last name" class="lablee">Last Name</label>
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;"name="last_name" id="last_name" class="form-control input-sm">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6  txt-fn">
+                <div class="form-group">
+                  <label for=" email" class="lablee" >Email</label>
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="email" id="email" class="form-control input-sm">
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 text-fn-right">
+                <div class="form-group">
+                  <label for="First name" class="lablee" >Phone Number</label>
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="phone" id="phone" class="form-control input-sm">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 txt-fn">
+                <div class="form-group">
+                  <label for="street" class="lablee">Street Address1</label>
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="street" id="street" class="form-control input-sm" placeholder="Street Line1">
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 txt-fn-2">
+                <div class="form-group">
+                  <label for="street" class="lablee">Street Address2</label>
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="streetadd" class="form-control input-sm" placeholder="Street Line2">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6" id = "adj-1">
+                <div class="form-group" id = "adj">
+                  <label for="city" class="lablee"> City</label>
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="street" id="street" class="form-control input-sm" placeholder="City" >
+                </div>
+              </div>
+              <div class="col-xs-3 col-sm-6 col-md-3">
+                <div class="form-group">
+                  <div class="row" style="margin-right: -100px;">
+                    <div class="col-sm-6" id = "adj-2">
+                      <label for="state" class="lablee">State </label>
+                      <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="streetadd" class="form-control input-sm" placeholder="State">
+                    </div>
+                    <div class="col-sm-6" id = "adj-3">
+                      <label for="state" class="lablee">Zipcode </label>
+                      <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="zip" class="form-control input-sm" placeholder="Zipcode">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 txt-fn">
+                <div class="form-group">
+                  <label for="create" class="lablee">Create Password</label>
+                  <input type="password" style="border-top-color: #b09898;border-top-width:  2px;" name="street" id="street" class="form-control input-sm">
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 text-fn-right">
+                <div class="form-group">
+                  <label for="verify" class="lablee">Verify Password</label>
+                  <input type="password" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="streetadd" class="form-control input-sm">
+                </div>
+              </div>
+            </div>
+
+            <div id = "btn-center">
+              <button type="button" id = "btn-fit2" class="btn btn-info2">Submit</button>
+            </div>
+            <br/>
+            <span class="account">Already have an Account?
+              <button type="button" id = "btn-fit-8" class="btn btn-info-8">Login</button></span>
+            </form>
+          </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd-wd" id = "fname-fit">
-            <label for="exampleInputEmail1" class = "label">First Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
-        </div>
-        <div class="clearfix"></div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd-wd" id = "email-fit">
-            <label for="exampleInputPassword1" class = "label">Email</label>
-            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd-wd" id = "phno-fit">
-            <label for="exampleInputPassword1" class = "label">Phone Number</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
-        </div>
-        <div class = "clearfix"></div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pd-wd" id = "st-add-fit">
-            <label for="exampleInputPassword1" class = "label" id = "transparent">Street Address</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Street Line 1">
-        </div>
-        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 pd-wd" id = "st-add-fit2">
-            <label for="exampleInputPassword1" class = "label">Street Address</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Street Line 2">
-        </div>
-        <div class="clearfix"></div>
-        <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <div class="pd-wd" id = "city-fit">
-            <label for="exampleInputPassword1" class = "label">City</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
-        </div>
+      </div>
     </div>
-        <div class= "col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <div class="pd-wd1" id = "city-fit1">
-            <label for="exampleInputPassword1" class = "label" id = "transparent">City</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
-        </div>
-    </div>
-    <div class= "col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <div class="pd-wd2" id = "city-fit2">
-            <label for="exampleInputPassword1" class = "label" id = "transparent">City</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
-        </div>
-        </div>
-        <div class="clearfix"></div>
-
-
-        <!-- <div class="clearfix"></div>
-        <div class="form-group col-xs-10 col-sm-10 col-md-4 col-lg-4">
-            <label for="exampleInputFile">File input</label>
-            <input type="file" id="exampleInputFile">
-            <p class="help-block">Example block-level help text here.</p>
-        </div>
-        <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4">
-            <label>
-                <input type="radio"> Check me out<input type="radio"> Check me out<input type="radio"> Check me out
-            </label>
-        </div> -->
-        <div class"form-group col-xs-10 col-sm-4 col-md-4 col-lg-4"
-        <div class="clearfix"></div>
-        <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4">
-            <button type="submit" class="btn btn-default">Submit</button>
-        </div>
-    </form>
-    <div class="clearfix"></div>
-
-    <br /><br />
   </div>
-</div>
-</div>
 </body>
-
 </html>
