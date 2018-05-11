@@ -92,6 +92,7 @@
     margin-left: 0px
     margin-bottom: 50px;
     padding-left: 25px;
+    margin-left: 35px;
 }
 #header-fit{
     font-size: 15px;
@@ -563,7 +564,7 @@
 .container-nav{
     width:100%;
     height:55px;
-     background-color:#9c9c9c40;
+     background-color:#a9a9a961;
      border: 2px solid #00000014;
  }
 .nav{
@@ -639,9 +640,458 @@
     font-size: 14px;
     padding-left: 0px;
     padding-right: 0px;
-    height: 48px;
+    height: 55px;
     width: 50%;
-    margin-left: 80px;
     line-height: 1.5;
-    margin-top: 35px;
+    margin-bottom: 18px;
+    margin-top: 13px;
+    margin-left: 35px;
+    margin-right: 0px;
+}
+
+.has-error{
+      color: red;
+    }
+  
+
+    #tt{
+      color: red;
+    }
+    #tt1{
+      color: red;
+    }
+
+#time-fit{
+    padding-right: 0px;
+    padding-bottom: 12px;
+    left: 55px;
+    top: 20px;
+    width: 139px;
+    padding-left: 0px;
+    background-color: #a9a9a921;
+    margin-bottom: 18px;
+    margin-top: 13px;
+    margin-left: 35px;
+    margin-right: 0px;
+}
+
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+
+#weather {
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+i {
+  color: #fff;
+  font-family: weather;
+  font-size: 150px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+
+
+#weather-fit{
+    height: 98px;
+    background-color: #a9a9a921;
+    right: 0px;
+    left: 62px;
+    top: 33px;
+    padding-right: 34px;
+    width: 135px;
+    padding-left: 45px;
+}
+
+#temp-fit{
+    margin-bottom: 0px;
+}
+
+#items-fits{
+    margin-top: 13px;
+    margin-left: 0px;
+    line-height: 1.5;
+}
+#signal{
+    left: 97px;
+    bottom: 86px;
+    height: 98px;
+    width: 129px;
+    background-color: #a9a9a921;
+}
+
+#signal-fits{
+
+}
+
+#pos{
+    padding-right: 42px;
+}
+
+#img-dev{
+    margin-left: 102px;
+    width: 18px;
+}
+
+#dev{
+    font-size: 18px;
+    font-weight: 550;
+}
+#func-icon{
+    left: 15px;
+    margin-top: 15px;
+    width: 818px;
+    background-color: #a9a9a936;
+}
+#door-sensor-fit{
+    box-sizing: content-box;
+    width: 40px;
+    height: 40px;
+}
+#knob-fit{
+        box-sizing: content-box;
+        height: 76px;
+        margin-left: 55px;
+}
+
+#door{
+    height: 241px;
+    width: 225px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#door-s-fit{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 40px;
+}
+
+#door-lr-fit{
+    margin-left: 55px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#door-closed{
+    margin-left: 65px;
+    color: rgba(43, 163, 193, 0.75);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+#bed-lamp{
+    height: 241px;
+    width: 225px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#bulb-fit{
+        box-sizing: content-box;
+        height: 76px;
+        margin-left: 55px;
+}
+#bed-lamp-fit{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 48px;
+}
+
+#bed{
+    margin-left: 61px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#bulb-status{
+    margin-left: 61px;
+    color: rgba(43, 163, 193, 0.75);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#front-door{
+    height: 241px;
+    width: 225px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#lock-fit{
+        box-sizing: content-box;
+        height: 76px;
+        margin-left: 55px;
+}
+#front-door-lock{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 23px;
+}
+
+#house{
+    margin-left: 72px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#lock-status{
+    margin-left: 62px;
+    color: rgba(43, 163, 193, 0.75);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#thermostat{
+    height: 241px;
+    width: 225px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#thermostat-fit{
+        box-sizing: content-box;
+        height: 76px;
+        margin-left: 55px;
+}
+#thermostat-label{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 42px;
+}
+
+#dining-room{
+    margin-left: 50px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#thermostat-status{
+    margin-left: 80px;
+    color: rgba(43, 163, 193, 0.75);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#oven{
+    height: 241px;
+    width: 225px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#oven-fit{
+        box-sizing: content-box;
+        height: 76px;
+        margin-left: 55px;
+}
+#oven-name{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 70px;
+}
+
+#oven-place{
+    margin-left: 69px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#oven-status{
+    margin-left: 76px;
+    color: rgba(43, 163, 193, 0.75);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#device{
+    height: 241px;
+    width: 225px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#device-fit{
+        box-sizing: content-box;
+        height: 76px;
+        margin-left: 55px;
+}
+#device-name{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 37px;
+
+}
+
+#device-place{
+    margin-left: 53px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#device-status{
+    margin-left: 62px;
+    color: rgba(43, 163, 193, 0.75);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+#comm-fit{
+    width: 375px;
+    margin-left: 45px;
+    bottom: 120px;
+}
+#comm-img{
+    margin-left: 20px;
+    margin-bottom: 7px;
+    width: 25px;
+    box-sizing: content-box;
+    
+}
+#comm-label{
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 5px;
+}
+#img-comm-1{
+        padding-left: 0px;
+}
+#comm-img-fit{
+    width: 107px;
+    height: 125px;
+    margin-top: 14px;
+}
+#event-new{
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+#event-info{
+    margin-left: 20px;
+    font-size: 11px;
+}
+#img-comm-2{
+    padding-left: 0px;
+    margin-top: 45px;
+}
+
+#comm-img1-fit{
+    width: 107px;
+    height: 125px;
+    margin-top: -25px;
+}
+#event-old{
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 0px;
+}
+#event1-info{
+    font-size: 11px;
+    margin-left: 20px;
+}
+#nxt{
+        margin-left: 750px;
 }

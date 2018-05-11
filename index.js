@@ -1,5 +1,5 @@
+// <-----Greeting----->
 $(document).ready(function(){
-
 var thehours = new Date().getHours();
 	var themessage;
 	var morning = 'Good morning, User';
@@ -21,11 +21,68 @@ var thehours = new Date().getHours();
 	}
 	$('#grtng').text(themessage);
 
-
+// <-----Date and time----->
 var date = new Date();
 var n = date.toDateString();
 var time = date.toLocaleTimeString();
 
 document.getElementById('time').innerHTML = n + ' ' + time;
 
-})
+
+});
+
+// <---Login-form validation--->
+// $(document).ready(function () {
+//       $("#myForm").validate({
+//         rules: {
+//           email: {
+//             required: true,
+//             email: true
+//           },
+//           pwd: {
+//             required: true,
+//             minlength: 5
+//           }
+//         },
+//         messages: {
+//           email: {
+//             required: "We need your email address to contact you",
+//             email: "Enter a valid email address"
+//           },
+//           pwd: {
+//             required: "Password feild is empty",
+//             minlength: "Password must contain minimum 5 characters"
+//           }
+//         },
+//         highlight: function(element) {
+//          $(element).parent().parent().addClass("has-error");
+//        },
+
+//        unhighlight: function(element) {
+//         $(element).parent().parent().removeClass("has-error");
+//       },
+//        errorPlacement: function (error, element) {
+//                 error.appendTo( element.next('div' ));
+
+
+//         },
+//             submitHandler: function (form) {
+//           }
+//         });
+//     });
+
+//      var modal = document.getElementById('myModal');
+//      var btn = document.getElementById("myBtn");
+//      var span = document.getElementsByClassName("close")[0];
+//      btn.onclick = function() {
+//       modal.style.display = "block";
+//     }
+//     span.onclick = function() {
+//       modal.style.display = "none";
+//     }
+//     window.onclick = function(event) {
+//       if (event.target == modal) {
+//         modal.style.display = "none";
+//       }
+//     }
+
