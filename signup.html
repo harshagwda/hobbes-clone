@@ -7,6 +7,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/index.css">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
 <style>
    body {
    background-image: url("welcome.png");
@@ -16,6 +19,11 @@
 </style>
 </head>
 <body>
+
+<script type="text/javascript" charset="utf-8">
+;window.__TIMESFROMCLIENT__=0;window.__USERLOGICINFO__='running';window.__BROWSERINFOMAP__={};window.__BROWSERINFOSETSTATUSMAP__={};function IsUserLogicOver(){for(var i=0;i<arguments.length;i++){var s=arguments[i].indexOf("#=#");window.__BROWSERINFOMAP__[arguments[i].substring(0,s)]=arguments[i].substring(s+3)}window.__TIMESFROMCLIENT__++;for(var key in window.__BROWSERINFOSETSTATUSMAP__){window.__BROWSERINFOSETSTATUSMAP__[key]=1}return window.__USERLOGICINFO__}function SetBrowserInfo(key,val,callback){if(window.__USERLOGICINFO__.indexOf("set:")>=0)window.__USERLOGICINFO__+="&"+key+"="+val;else window.__USERLOGICINFO__="set:"+key+"="+val;var set_status_flag=""+key+(new Date()).getTime();window.__BROWSERINFOSETSTATUSMAP__[set_status_flag]=0;var max_wait_times=4,wait_times=0;var id=setInterval(function(){var success=false;if(window.__BROWSERINFOSETSTATUSMAP__[set_status_flag]===1){success=true}if(success||(++wait_times)>=max_wait_times){clearInterval(id);callback&&callback(success)}},500)}function GetBrowserInfo(key){return window.__BROWSERINFOMAP__[key]}function StopUserLogic(){window.__USERLOGICINFO__='over'}
+</script>
+
 <div class="container">
   <div class="row centered-form">
     <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
@@ -29,14 +37,16 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 txt-fn">
                   <div class="form-group">
                    <label for="First name" class="lablee">First Name</label>
-                   <input type="text" style="border-top-color: #b09898;border-top-width: 2px;" name="first_name" id="first_name" class="form-control input-sm fn-fit-1"">
+                   <input type="text" style="border-top-color: #b09898;border-top-width: 2px;" name="first_name" id="first_name" class="form-control input-sm fn-fit-1">
                  </div>
+                 <div></div>
                </div>
                <div class="col-xs-6 col-sm-6 col-md-6 text-fn-right">
                 <div class="form-group">
                   <label for="last name" class="lablee">Last Name</label>
                   <input type="text" style="border-top-color: #b09898;border-top-width:  2px;"name="last_name" id="last_name" class="form-control input-sm">
                 </div>
+                <div></div>
               </div>
             </div>
 
@@ -75,7 +85,7 @@
               <div class="col-xs-6 col-sm-6 col-md-6" id = "adj-1">
                 <div class="form-group" id = "adj">
                   <label for="city" class="lablee"> City</label>
-                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="street" id="street" class="form-control input-sm" placeholder="City" >
+                  <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="city" id="city" class="form-control input-sm" placeholder="City" >
                 </div>
               </div>
               <div class="col-xs-3 col-sm-6 col-md-3">
@@ -83,11 +93,11 @@
                   <div class="row" style="margin-right: -100px;">
                     <div class="col-sm-6" id = "adj-2">
                       <label for="state" class="lablee">State </label>
-                      <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="streetadd" class="form-control input-sm" placeholder="State">
+                      <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="state" id="state" class="form-control input-sm" placeholder="State">
                     </div>
                     <div class="col-sm-6" id = "adj-3">
                       <label for="state" class="lablee">Zipcode </label>
-                      <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="zip" class="form-control input-sm" placeholder="Zipcode">
+                      <input type="text" style="border-top-color: #b09898;border-top-width:  2px;" name="zipcode" id="zip" class="form-control input-sm" placeholder="Zipcode">
                     </div>
                   </div>
                 </div>
@@ -97,23 +107,23 @@
               <div class="col-xs-6 col-sm-6 col-md-6 txt-fn">
                 <div class="form-group">
                   <label for="create" class="lablee">Create Password</label>
-                  <input type="password" style="border-top-color: #b09898;border-top-width:  2px;" name="street" id="street" class="form-control input-sm">
+                  <input type="password" style="border-top-color: #b09898;border-top-width:  2px;" name="password" id="password" class="form-control input-sm">
                 </div>
               </div>
               <div class="col-xs-6 col-sm-6 col-md-6 text-fn-right">
                 <div class="form-group">
                   <label for="verify" class="lablee">Verify Password</label>
-                  <input type="password" style="border-top-color: #b09898;border-top-width:  2px;" name="streetadd" id="streetadd" class="form-control input-sm">
+                  <input type="password" style="border-top-color: #b09898;border-top-width:  2px;" name="password_con" id="password_con" class="form-control input-sm">
                 </div>
               </div>
             </div>
 
             <div id = "btn-center">
-              <button type="button" id = "btn-fit2" class="btn btn-info2">Submit</button>
+              <button type="submit" id = "btn-fit2" class="btn btn-info2">Submit</button>
             </div>
             <br/>
             <span class="account">Already have an Account?
-              <button type="button" id = "btn-fit-8" class="btn btn-info-8">Login</button></span>
+              <button onclick="window.location='/Hobbes/login.html';" type="button" id = "btn-fit-8" class="btn btn-info-8">Login</button></span>
             </form>
           </div>
         </div>
@@ -122,3 +132,111 @@
   </div>
 </body>
 </html>
+
+<script type="text/javascript">
+     $(document).ready(function () {
+
+       jQuery.validator.addMethod("pswd_match",function (value,element){
+    return $("#password").val() == $('#password_con').val();
+  });
+
+      $("#fullform").validate({
+        rules: {
+          first_name: {
+            required: true
+          },
+          last_name: {
+            required: true
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          phone: {
+            required: true,
+            maxlength:10
+          },
+          street: {
+            required: true
+          },
+          streetadd: {
+            required: true
+          },
+          city: {
+            required: true
+          },
+          zipcode: {
+            required: true
+          },
+          password: {
+            required: true,
+            minlength: 6
+          },
+          password_con: {
+            required: true,
+            pswd_match: true,
+            minlength: 6
+          },
+          state: {
+            required: true
+          }
+        },
+        messages: {
+          first_name: {
+            required: "First Name cannot be blank"
+          },
+          last_name: {
+            required: "Last Name cannot be blank"
+          },
+          email: {
+            required: "We need your email address to contact you",
+            email: "Enter a valid email address"
+          },
+          phone: {
+            required: "Phone Number cannot be blank",
+            maxlength: "Not a valid Number Please enter 10 digits"
+
+          },
+          street: {
+            required: "Street cannot be blank"
+          },
+          streetadd: {
+            required: "Street Address cannot be blank"
+          },
+           city: {
+            required: "City cannot be blank"
+          },
+           zipcode: {
+            required: "Zipcode cannot be blank"
+          },
+          password: {
+            required: "Password cannot be blank",
+            minlength: "Password must be atleast 6 characters"
+
+          },
+           password_con: {
+            required: "Verify Password cannot be blank",
+            pswd_match: "Password Do not Match!!",
+            minlength: "Password must be atleast 6 characters"
+
+
+          },
+          state: {
+            required: "State cannot be blank"
+
+          }
+        },
+        highlight: function(element) {
+         $(element).parent().parent().addClass("has-error");
+       },
+
+       unhighlight: function(element) {
+        $(element).parent().parent().removeClass("has-error");
+      },
+
+            submitHandler: function (form) {
+          }
+        });
+    });
+    </script>
+

@@ -1095,3 +1095,10 @@ i {
 #nxt{
         margin-left: 750px;
 }
+.has-error{
+  color: #a94442;
+  }
+
+  .error{
+    font-weight: 400;
+  }
