@@ -1,11 +1,10 @@
-.centered {
-    position: absolute;
+.centered {position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .fnt {
-    font-family: Roboto-Light;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-weight: 200;
     font-size: 55px;
@@ -30,7 +29,7 @@
 }
 
 .btn-info{
-    font-family: Roboto-Regular;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-size: 13px;
     color: rgba(255, 255, 255);
@@ -65,7 +64,7 @@
 
 }
 .btn-info1{
-    font-family: Roboto-Regular;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-size: 13px;
     color: rgba(255, 255, 255);
@@ -89,14 +88,15 @@
 }
 
 #imgfit{
-    margin-left: 0px
-    margin-bottom: 50px;
     padding-left: 25px;
-    margin-left: 35px;
+}
+
+#imgfit1{
+      padding-left: 60px;
 }
 #header-fit{
     font-size: 15px;
-    font-family: Roboto-Light;
+    font-family: OpenSans-Light;
     font-style: normal;
     margin-bottom: 3px;
     color: rgba(42, 46, 47, 0.75);
@@ -122,7 +122,7 @@
 #header-fit1{
     margin-bottom: 3px;
     font-size: 15px;
-    font-family: Roboto-Light;
+    font-family: OpenSans-Light;
     font-style: normal;
     color: rgba(42, 46, 47, 0.75);
 }
@@ -145,7 +145,7 @@
 }
 
 .btn-info2{
-    font-family: Roboto-Regular;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-size: 13px;
     color: rgba(255, 255, 255);
@@ -170,7 +170,7 @@
 }
 
 .btn-info3{
-    font-family: Roboto-Regular;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-size: 13px;
     color: rgba(255, 255, 255);
@@ -322,7 +322,7 @@
     margin-right: 20px;
 }
 .btn-info5{
-    font-family: Roboto-Regular;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-size: 13px;
     color: rgba(43, 163, 193, 0.75);
@@ -376,7 +376,7 @@
     max-width: 100%;
     margin-bottom: 0px;
     font-weight: 500;
-    font-family: Roboto-Light;
+    font-family: OpenSans-Light;
     font-size: 14px;
     font-style: normal;
     color: rgba(42, 46, 47, 0.75);
@@ -551,7 +551,7 @@
     font-weight: 600;
 }
 .btn-info-8{
-    font-family: Roboto-Regular;
+    font-family: OpenSans-Light;
     font-style: normal;
     color: rgba(4, 200, 249, 0.75);
     letter-spacing: 1px;
@@ -603,13 +603,16 @@
 #img-cnt{
         width: 80px;
 }
+#noti-fit{
+  padding-left: 950px;
+}
 .logt{
     float: right;
     width: 95px;
     padding-top: 0px;
-    line-height: 3;
-    font-size: 17px;
-    font-family: Roboto-Light;
+    line-height: 2.5;
+    font-size: 20px;
+    font-family: OpenSans-Light;
     font-style: normal;
     font-weight: 400;
     padding-left: 0px;
@@ -626,8 +629,8 @@
   font-family: sans-serif;
   color: #333;
   font-size: 25px;
-  padding-left: 60px;
-  margin-top: 50px;
+  padding-left: 52px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 
@@ -824,7 +827,7 @@ i {
 }
 
 #img-dev{
-    margin-left: 102px;
+    margin-left: 92px;
     width: 18px;
 }
 
@@ -1057,7 +1060,7 @@ i {
 #comm-img-fit{
     width: 107px;
     height: 125px;
-    margin-top: 14px;
+    margin-top: 0px;
 }
 #event-new{
     margin-left: 18px;
@@ -1065,11 +1068,13 @@ i {
     font-weight: 550;
     font-style: normal;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #event-info{
     margin-left: 20px;
     font-size: 11px;
+    margin-bottom: 0px;
 }
 #img-comm-2{
     padding-left: 0px;
@@ -1079,7 +1084,7 @@ i {
 #comm-img1-fit{
     width: 107px;
     height: 125px;
-    margin-top: -25px;
+    margin-top: -45px;
 }
 #event-old{
     margin-left: 18px;
@@ -1087,6 +1092,7 @@ i {
     font-weight: 550;
     font-style: normal;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 #event1-info{
     font-size: 11px;
@@ -1102,3 +1108,102 @@ i {
   .error{
     font-weight: 400;
   }
+
+#comm-well{
+    height: 132px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #eee;
+}
+#comm-well-second{
+    height: 130px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    background-color: #eee;
+}
+#comm-well-main{
+    background-color: #a9a9a938;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    margin-bottom: 40px;
+}
+
+#soc-med-icon{
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+#soc-label{
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 5px;
+}
+
+#soc-img-one{
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#soc-med-inside-one{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 130px;
+    background-color:#00ffff30;
+}
+
+#twitter-uname-new{
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+#uname-info-new{
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#soc-img-two{
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#soc-med-inside-two{
+    height: 130px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #00ffff30;
+}
+#twitter-uname-old{
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+#uname-info-old{
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#comm-well-two{
+    background-color: #a9a9a938;
+}
