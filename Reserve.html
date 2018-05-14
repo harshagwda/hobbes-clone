@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/hob.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.energyblue.css" type="text/css" />
+    <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/jqx-all.js"></script>
+    <script type="text/javascript" src="https://www.jqwidgets.com/public/jqwidgets/globalization/globalize.js"></script>
+    <link rel="stylesheet" href="https://www.jqwidgets.com/public/jqwidgets/styles/jqx.arctic.css" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-default ">
+    <div class="container-fluid">
+      <ul class=" nav navbar-nav navbar-header">
+        <li class="hamb">
+          <span class="glyphicon glyphicon-menu-hamburger "></span>
+        </li>
+        <li class="head">Community</li>
+        <li>
+        <img src="assets/Images/image.png" id = "img-cnt" alt = "qhub" class="responsive">
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="bell"><span class="glyphicon glyphicon-bell"></span></li>
+        <li class="out"><span class="glyphicon glyphicon-log-out"></span> Logout</li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-8" id="display">
+          <!-- <div class="card">  -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="col-xs-3 col-md-3 col-sm-3 col-lg-3"><a href="event.html">Events</a></li>
+              <li role="presentation" class="active col-xs-3 col-md-3 col-sm-3 col-lg-3"><a href="Reserve.html">Reservations</a></li>
+              <li role="presentation" class="col-xs-3 col-md-3 col-sm-3 col-lg-3"><a href="Tasks.html">Tasks</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="tab-content1">
+        <div class="row">
+          <div class="col-xs-8" id="bgc1">
+            <ul class="event-list">
+              <li id="tab1">
+                <div class="col-md-3" id="dis1">
+                  <p>TODAY</p>
+                </div>
+                <div class="col-md-5">
+                  <p id="conf">Conference Hall Reserved</p>
+                </div>
+                <div class=" col-md-4">
+                  <p id="conf1">12.00 to 12.45 p.m</p>
+                </div>
+              </li>
+              <li id="tab1">
+                <div class="col-md-3" id="dis1">
+                  <p>THU</p>
+                </div>
+                <div class="col-md-5">
+                  <p id="conf">Swimming Pool Reserved</p>
+                </div>
+                <div class=" col-md-4">
+                  <p id="conf1">03.00 to 05.45 p.m</p>
+                </div>
+              </li>  
+              <li id="tab1">
+                <div class="col-md-3" id="dis1">
+                  <p>SAT</p>
+                </div>
+                <div class="col-md-5">
+                  <p id="conf">Party Hall Reserved</p>
+                </div>
+                <div class=" col-md-4">
+                  <p id="conf1">05.30 to 07.30 p.m</p>
+                </div>
+              </li>  
+            </ul>
+          </div>
+          <div class="col-md-4" id="calsi">
+            <div id="calendar"></div>
+          </div>
+
+          <div class="col-md-4">
+            <h5>RESERVATION FEED</h5>
+            <div id=exa3>
+              <div id="exa2">
+                <div class="row">
+                <p id="form3">2 hrs ago</p>
+                  <div class="col-md-2" id="clr">
+                    <img src="assets/Images/Create.svg"> 
+                  </div>
+                  <div class="col-md-10">
+                    <p id="form4">New Reservation</p>
+                    <span>Party Hall Booked for 29th March,2017</span>
+                  </div>
+                </div>
+              </div>
+              <div id="exa1">
+                <div class="row">
+                <p id="form3">2 days ago</p>
+                  <div class="col-md-2" id="clr1">
+                    <img src="assets/Images/Ccancel.svg">
+                  </div>
+                  <div class="col-md-10">
+                    <p id="form5">Reservation Cancelled</p>
+                    <span>Swimming Pool Cancelled for 30th March,2017</span>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div> 
+      </div>
+    </div>
+  </body>
+</html> 
+  <script>
+  $(document).ready(function () {
+   $("#calendar").jqxCalendar({theme: "arctic", width:250, height:250});
+  });
+  </script>
+ <script type="text/javascript" src="js/hob.js"></script>
