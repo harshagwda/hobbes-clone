@@ -24,8 +24,8 @@
     margin-left: 36px;
 }
 .btn {
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btn-info{
@@ -92,7 +92,7 @@
 }
 
 #imgfit1{
-      padding-left: 60px;
+    padding-left: 60px;
 }
 #header-fit{
     font-size: 15px;
@@ -214,7 +214,7 @@
     overflow: auto;
     position: absolute;
     margin-right: 2px;
-    
+
 }
 
 
@@ -344,26 +344,26 @@
 
 #lname-fit{
     float: right;
-        margin-top: 12px;
+    margin-top: 12px;
 }
 
 #fname-fit{
     float: right;
-        margin-top: 12px;
+    margin-top: 12px;
 }
 
 #email-fit{
     float: right;
-        margin-top: 12px;
+    margin-top: 12px;
 }
 #phno-fit{
     float: right;
-        margin-top: 12px;
+    margin-top: 12px;
 }
 
 #st-add-fit{
-     float: right;
-         margin-top: 12px;
+    float: right;
+    margin-top: 12px;
 }
 
 #st-add-fit2{
@@ -381,7 +381,7 @@
     font-style: normal;
     color: rgba(42, 46, 47, 0.75);
     padding-bottom: 0px;
-   } 
+} 
 
 #transparent{
     color: #ffffff;
@@ -415,46 +415,46 @@
     outline: none;
 }
 
-    .centered-form{
-      margin-top: 60px;
-    }
+.centered-form{
+    margin-top: 60px;
+}
 
-    .register{
+.register{
     text-align: center;
     margin-bottom: -25px;
     margin-right: 199px;
     font-size: 16px;
 }
-    }
-    .toggle1{
-      margin-left: 267px;
-      margin-bottom: 14px;
-      width: 130px;
-      border: 2px solid rgba(43, 163, 193, 0.75);
-      border-radius: 40px;
-      background-color: white;
-      color: rgba(43, 163, 193, 0.75);
-    }
-    #fullform{
-      width: 520px;
-    }
+}
+.toggle1{
+    margin-left: 267px;
+    margin-bottom: 14px;
+    width: 130px;
+    border: 2px solid rgba(43, 163, 193, 0.75);
+    border-radius: 40px;
+    background-color: white;
+    color: rgba(43, 163, 193, 0.75);
+}
+#fullform{
+    width: 520px;
+}
 
 
-    .lablee{
-      font-size: 13px;font-weight: 400;
-    }
-    .account{
+.lablee{
+    font-size: 13px;font-weight: 400;
+}
+.account{
     color: #ffffff;
     font-size: 13px;
     padding-left: 0px;
     font-weight: 550;
     margin-left: 100px;
-    }
+}
 
-    .centered-form .panel{
-      background: rgba(255, 255, 255, 0.8);
-      box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
-   }
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
 
 #btn-fit-reg{
     padding-left: 35px;
@@ -502,7 +502,7 @@
 }
 
 .txt-fn{
-        padding-left: 0px;
+    padding-left: 0px;
 }
 
 #adj{
@@ -518,7 +518,7 @@
 }
 
 .txt-fn-2{
-        padding-right: 0px;
+    padding-right: 0px;
 }
 
 #adj-2{
@@ -535,8 +535,8 @@
     padding-right: 0px
 }
 #sm-ln{
-     margin-left: 80px;
-     margin-bottom: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 #btn-fit-8{
     padding-left: 10px;
@@ -564,9 +564,9 @@
 .container-nav{
     width:100%;
     height:55px;
-     background-color:#a9a9a961;
-     border: 2px solid #00000014;
- }
+    background-color:#a9a9a961;
+    border: 2px solid #00000014;
+}
 .nav{
     width:120px; 
     height:50px; 
@@ -601,10 +601,10 @@
 }
 
 #img-cnt{
-        width: 80px;
+    width: 80px;
 }
 #noti-fit{
-  padding-left: 950px;
+    padding-left: 950px;
 }
 .logt{
     float: right;
@@ -619,19 +619,19 @@
     letter-spacing: 0.4px;
 }
 .greeting {
-  font-weight: 600;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 #grtng {
-  font-family: sans-serif;
-  color: #333;
-  font-size: 25px;
-  padding-left: 52px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 25px;
+    padding-left: 52px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 #grtng-adj{
@@ -653,16 +653,16 @@
 }
 
 .has-error{
-      color: red;
-    }
-  
+    color: red;
+}
 
-    #tt{
-      color: red;
-    }
-    #tt1{
-      color: red;
-    }
+
+#tt{
+    color: red;
+}
+#tt1{
+    color: red;
+}
 
 #time-fit{
     padding-right: 0px;
@@ -683,35 +683,35 @@
     font-family: 'weather';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
-         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
-         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 html {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 
 #weather {
-  width: 500px;
-  margin: 0px auto;
-  text-align: center;
-  text-transform: uppercase;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 i {
-  color: #fff;
-  font-family: weather;
-  font-size: 150px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.0;
-  text-transform: none;
+    color: #fff;
+    font-family: weather;
+    font-size: 150px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.0;
+    text-transform: none;
 }
 
 .icon-0:before { content: ":"; }
@@ -764,29 +764,29 @@ i {
 .icon-47:before { content: "S"; }
 
 #weather h2 {
-  margin: 0 0 8px;
-  color: #fff;
-  font-size: 100px;
-  font-weight: 300;
-  text-align: center;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 0 0 8px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 #weather ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #weather li {
-  background: #fff;
-  background: rgba(255,255,255,0.90);
-  padding: 20px;
-  display: inline-block;
-  border-radius: 5px;
+    background: #fff;
+    background: rgba(255,255,255,0.90);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 #weather .currently {
-  margin: 0 20px;
+    margin: 0 20px;
 }
 
 
@@ -847,9 +847,9 @@ i {
     height: 40px;
 }
 #knob-fit{
-        box-sizing: content-box;
-        height: 76px;
-        margin-left: 55px;
+    box-sizing: content-box;
+    height: 76px;
+    margin-left: 55px;
 }
 
 #door{
@@ -888,9 +888,9 @@ i {
     border-radius: 10px;
 }
 #bulb-fit{
-        box-sizing: content-box;
-        height: 76px;
-        margin-left: 55px;
+    box-sizing: content-box;
+    height: 76px;
+    margin-left: 55px;
 }
 #bed-lamp-fit{
     margin-top: 10px;
@@ -919,9 +919,9 @@ i {
     border-radius: 10px;
 }
 #lock-fit{
-        box-sizing: content-box;
-        height: 76px;
-        margin-left: 55px;
+    box-sizing: content-box;
+    height: 76px;
+    margin-left: 55px;
 }
 #front-door-lock{
     margin-top: 10px;
@@ -950,9 +950,9 @@ i {
     border-radius: 10px;
 }
 #thermostat-fit{
-        box-sizing: content-box;
-        height: 76px;
-        margin-left: 55px;
+    box-sizing: content-box;
+    height: 76px;
+    margin-left: 55px;
 }
 #thermostat-label{
     margin-top: 10px;
@@ -981,9 +981,9 @@ i {
     border-radius: 10px;
 }
 #oven-fit{
-        box-sizing: content-box;
-        height: 76px;
-        margin-left: 55px;
+    box-sizing: content-box;
+    height: 76px;
+    margin-left: 55px;
 }
 #oven-name{
     margin-top: 10px;
@@ -1012,9 +1012,9 @@ i {
     border-radius: 10px;
 }
 #device-fit{
-        box-sizing: content-box;
-        height: 76px;
-        margin-left: 55px;
+    box-sizing: content-box;
+    height: 76px;
+    margin-left: 55px;
 }
 #device-name{
     margin-top: 10px;
@@ -1047,7 +1047,7 @@ i {
     margin-bottom: 7px;
     width: 25px;
     box-sizing: content-box;
-    
+
 }
 #comm-label{
     font-size: 18px;
@@ -1055,7 +1055,7 @@ i {
     margin-left: 5px;
 }
 #img-comm-1{
-        padding-left: 0px;
+    padding-left: 0px;
 }
 #comm-img-fit{
     width: 107px;
@@ -1099,15 +1099,15 @@ i {
     margin-left: 20px;
 }
 #nxt{
-        margin-left: 750px;
+    margin-left: 750px;
 }
 .has-error{
-  color: #a94442;
-  }
+    color: #a94442;
+}
 
-  .error{
+.error{
     font-weight: 400;
-  }
+}
 
 #comm-well{
     height: 132px;
