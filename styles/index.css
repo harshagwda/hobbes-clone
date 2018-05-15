@@ -246,9 +246,8 @@
 
 .close {
     color: #000000;
-    float: right;
     font-size: 28px;
-    font-weight: bold;
+    margin-top: 4px;
 }
 
 .close:hover,
@@ -887,12 +886,12 @@ i {
     margin-top: 25px;
     border-radius: 10px;
 }
-#bulb-fit{
+.bulb-fit{
     box-sizing: content-box;
     height: 76px;
     margin-left: 55px;
 }
-#bed-lamp-fit{
+.bed-lamp-fit{
     margin-top: 10px;
     font-size: 18px;
     font-weight: 550;
@@ -1208,3 +1207,88 @@ i {
     background-color: #a9a9a938;
 }
 
+#mod-cont{
+    width: 347px;
+    margin-left: 436px;
+    margin-right: 0px;
+    height: 550px;
+    bottom: 40px;
+    border-radius: 10px;
+    top: 0px;
+    box-shadow: 0 4px 20px 6px rgba(0, 0, 0, 0.23), 0 6px 20px 7px rgba(0,0,0,0.19);
+}
+
+#mod-head{
+        border-radius: 8px;
+}
+
+#mod-row{
+    height: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #a9a9a91f;
+}
+#img-lmp-cent{
+    width: 40px;
+    height: 45px;
+    top: 55px;
+    left: 199.75;
+    margin-top: 135px;
+    margin-left: 60px;
+}
+#lp-label{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 57px;
+    font-family: Roboto;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+#bedr-label{
+    margin-bottom: 0px;
+    top: 12px;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 280;
+}
+#status-label{
+    margin-top: 38px;
+    margin-left: 133px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+#off-toggle{
+    margin-left: 39px;
+    margin-top: 9px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+#toggle-switch{
+    margin-top: 2px;
+    margin-left: 40px;
+    width: 70px;
+    height: 40px;
+}
+#on-toggle{
+    margin-top: 9px;
+    font-family: Roboto;
+    font-weight: 400;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 12px;
+    margin-right: 0px;
+}
+#toggle-fit{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#on-toggle-fit{
+    padding-left: 0px;
+    padding-right: 0px;
+}

@@ -6,6 +6,7 @@ var thehours = new Date().getHours();
 	var afternoon = 'Good afternoon, User';
 	var evening = 'Good evening, User';
 	var night = 'Good night, User';
+
 	if (thehours >= 0 && thehours < 12) {
 		themessage = morning; 
 

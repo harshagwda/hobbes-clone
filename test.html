@@ -8,10 +8,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="styles/index.css">
   <script src = "js/index.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
 </head>
 <body>
   <div class = "container col-xs-12 col-sm-12 col-md-12 col-lg-12" style = "background-image: url('assets/welcome.png');padding-left: 0px; padding-right: 0px; ">
@@ -63,9 +59,9 @@
           </div>
         </div>
         <div class = "well col-xs-4 col-sm-4 col-md-4 col-lg-4" id = "bed-lamp">
-          <img src = "assets/Light Circle.svg" class = "bulb-fit" id = "myBtn">
+          <img src = "assets/Light Circle.svg" id = "bulb-fit">
           <div>
-            <p class = "bed-lamp-fit">Bed Lamp</p>
+            <p id = "bed-lamp-fit">Bed Lamp</p>
           </div>
           <div>
             <p id = "bed">Bedroom</p>
@@ -125,45 +121,7 @@
             <p id = "device-status">STATUS</p>
           </div>
         </div>
-        <!-- MODAL  -->
-        <div id="myModal" class="modal col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="modal-content" id = "mod-cont">
-        <!-- <div class="modal-header" id = "mod-head"> -->
-        <div class = "row col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "mod-row">
-          <div class = "col-xs-10 col-sm-10 col-md-10 col-lg-10">
-            <div class = "centered">
-            <img id = "img-lmp-cent" src = "assets/Light.svg"> 
-            <!-- <div class ="centered"> -->
-            <p id = "lp-label">Lamp</p>
-            </div>
-           </div>
-            <!-- <class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id => -->
-           <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2" id = "">
-          <span class="close">&times;</span> 
-        </div>
-        </div>
-        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div>
-          <p class = "centered" id = "bedr-label">Bedroom</p>
-        </div>
-        <div>
-          <p id = "status-label">STATUS</p>
-        </div>
-        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">
-            <p id = "off-toggle">Off</p>
-          </div>
-          <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6" id = "toggle-fit">
-            <img src = "assets/Toggle Switch.svg" id = "toggle-switch">
-        </div>
-        <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3" id = "on-toggle-fit">
-          <p id = "on-toggle">On</p>
-        </div>
-          </div>
-    </div>
       </div>
-    </div>
-  </div>
       <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4" id = "comm-fit">
         <img src = "assets/Community.svg" id = "comm-img">
         <span id = "comm-label">COMMUNITY</span>
@@ -217,22 +175,4 @@
     </div>
   </div>
 </body>
- <script type="text/javascript">
-      $(document).ready(function () {
-        var modal = document.getElementById('myModal');
-        var btn = document.getElementById("myBtn");
-        var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function() {
-          modal.style.display = "block";
-        }
-        span.onclick = function() {
-          modal.style.display = "none";
-        }
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-      });
-    </script>
-</html> 
+</html>
